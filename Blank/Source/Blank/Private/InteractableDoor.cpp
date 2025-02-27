@@ -4,7 +4,7 @@
 #include "InteractableDoor.h"
 
 const float AInteractableDoor::DOOR_TIMER_RATE = 0.01f;
-const float AInteractableDoor::DOOR_ROTATION_TOLERANCE = 0.2f;
+const float AInteractableDoor::DOOR_ROTATION_TOLERANCE = 1.0f;
 const float AInteractableDoor::DOOR_APERTURE_SPEED = 5.0f;
 
 // Sets default values
@@ -22,49 +22,55 @@ AInteractableDoor::AInteractableDoor()
 	DoorTrigger = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger"));
 	DoorTrigger->SetupAttachment(RootComponent);
 	DoorTrigger->OnComponentBeginOverlap.AddDynamic(this, &AInteractableDoor::OnDoorTriggerOverlap);
+
+	BooTrigger = CreateDefaultSubobject<UBoxComponent>(TEXT("BooTrigger"));
+	BooTrigger->SetupAttachment(RootComponent);
+	BooTrigger->OnComponentBeginOverlap.AddDynamic(this, &AInteractableDoor::OnDoorTriggerOverlap);
 }
 
 void AInteractableDoor::OnDoorTriggerOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	//Logica del timer
-	MoveDoorTimerDelegate.BindUFunction(this, FName("UpdateMoveDoor"), true);
-	GetWorld()->GetTimerManager().SetTimer(MoveDoorTimerHangle_,MoveDoorTimerDelegate,DOOR_TIMER_RATE,true);
+	OpenDoor();
 }
 
-void AInteractableDoor::OnExitTriggerOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void AInteractableDoor::OnBooTriggerOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	//Logica del timer
-	ExitDoorTimerDelegate.BindUFunction(this, FName("UpdateMoveDoor"), false);
-	GetWorld()->GetTimerManager().SetTimer(MoveDoorTimerHangle_, ExitDoorTimerDelegate, DOOR_TIMER_RATE, true);
+	CloseDoor();
 }
 
 void AInteractableDoor::UpdateMoveDoor(bool ShouldOpen)
 {
 	const FRotator CurrentRotation = DoorMesh->GetRelativeRotation();
-
 	FRotator TargetRotation;
 
-	if (ShouldOpen == true){
-		TargetRotation = TargetRotationOpen;
+	ShouldOpen ? TargetRotation = TargetRotationOpen : TargetRotationClose;
+	
+	if (CurrentRotation.Equals(TargetRotation, DOOR_ROTATION_TOLERANCE)) {
+		GetWorld()->GetTimerManager().ClearTimer(OpenDoorTimerHandle);
+		OnDoorMove.Broadcast(ShouldOpen);
 	}
 	else {
-		TargetRotation = TargetRotationClose;
+		const FRotator UpdateRotation = FMath::RInterpTo(CurrentRotation, TargetRotation, GetWorld()->DeltaRealTimeSeconds, DOOR_APERTURE_SPEED);
+		DoorMesh->SetRelativeRotation(FRotator(UpdateRotation));
 	}
-
-	if (CurrentRotation.Equals(TargetRotation,DOOR_ROTATION_TOLERANCE)) {
-
-		OnDoorMove.Broadcast();
-		GetWorld()->GetTimerManager().ClearTimer(MoveDoorTimerHangle_);
-	}
-	else {
-
-		const FRotator UpdateRotation = FMath::RInterpTo(CurrentRotation, TargetRotation, GetWorld()->DeltaRealTimeSeconds,DOOR_APERTURE_SPEED);
-
-		DoorMesh->SetRelativeRotation(UpdateRotation);
-	}
-
-
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Entering Here"));
+}
+
+void AInteractableDoor::OpenDoor()
+{
+	//Logica del timer
+	FTimerDelegate OpenDoorDelegate;
+	OpenDoorDelegate.BindUFunction(this, FName("UpdateMoveDoor"), true);
+	GetWorld()->GetTimerManager().SetTimer(OpenDoorTimerHandle, OpenDoorDelegate, DOOR_TIMER_RATE, true);
+}
+
+void AInteractableDoor::CloseDoor()
+{
+
+	//Logica del timer
+	FTimerDelegate CloseDoorDelegate;
+	CloseDoorDelegate.BindUFunction(this, FName("UpdateMoveDoor"), false);
+	GetWorld()->GetTimerManager().SetTimer(OpenDoorTimerHandle, CloseDoorDelegate, DOOR_TIMER_RATE, true);
 }
 
 

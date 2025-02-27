@@ -18,12 +18,14 @@ struct FHitResult;
 #define BLANK_InteractableDoor_generated_h
 
 #define FID_Blank_Source_Blank_Public_InteractableDoor_h_11_DELEGATE \
-BLANK_API void FOnDoorMove_DelegateWrapper(const FMulticastScriptDelegate& OnDoorMove);
+BLANK_API void FOnDoorMove_DelegateWrapper(const FMulticastScriptDelegate& OnDoorMove, bool bOpened);
 
 
 #define FID_Blank_Source_Blank_Public_InteractableDoor_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execCloseDoor); \
+	DECLARE_FUNCTION(execOpenDoor); \
 	DECLARE_FUNCTION(execUpdateMoveDoor); \
-	DECLARE_FUNCTION(execOnExitTriggerOverlap); \
+	DECLARE_FUNCTION(execOnBooTriggerOverlap); \
 	DECLARE_FUNCTION(execOnDoorTriggerOverlap);
 
 

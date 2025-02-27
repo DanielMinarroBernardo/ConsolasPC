@@ -6934,11 +6934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Blank\\Intermediate\\Build\\BuildRulesProjects\\BlankModuleRules\\BlankModuleRules.csproj",
+      "projectUniqueName": "D:\\DanielRepos\\ConsolasPC\\Blank\\Intermediate\\Build\\BuildRulesProjects\\BlankModuleRules\\BlankModuleRules.csproj",
       "projectName": "BlankModuleRules",
-      "projectPath": "D:\\Blank\\Intermediate\\Build\\BuildRulesProjects\\BlankModuleRules\\BlankModuleRules.csproj",
+      "projectPath": "D:\\DanielRepos\\ConsolasPC\\Blank\\Intermediate\\Build\\BuildRulesProjects\\BlankModuleRules\\BlankModuleRules.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Blank\\Intermediate\\Build\\BuildRulesProjects\\BlankModuleRules\\obj\\",
+      "outputPath": "D:\\DanielRepos\\ConsolasPC\\Blank\\Intermediate\\Build\\BuildRulesProjects\\BlankModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

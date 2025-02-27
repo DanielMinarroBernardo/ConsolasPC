@@ -8,7 +8,7 @@
 #include "InteractableDoor.generated.h"
 
 //Espacio para meter los delegates
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnDoorMove);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDoorMove,bool, bOpened);
 
 UCLASS()
 class BLANK_API AInteractableDoor : public AActor
@@ -51,7 +51,7 @@ public:
 	UBoxComponent* DoorTrigger;
 
 	UPROPERTY(Category = "Setup", EditAnywhere, BlueprintReadWrite)
-	UBoxComponent* CloseDoorTrigger;
+	UBoxComponent* BooTrigger;
 
 
 
@@ -62,13 +62,20 @@ public:
 
 	//FUNCTION
 	UFUNCTION()
-	void OnExitTriggerOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	void OnBooTriggerOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 
 	UFUNCTION(BlueprintCallable)
 	void UpdateMoveDoor(bool ShouldOpen);
 
 	
+	UFUNCTION(BlueprintCallable)
+	void OpenDoor();
+
+	UFUNCTION(BlueprintCallable)
+	void CloseDoor();
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -79,8 +86,6 @@ public:
 
 private:
 
-	FTimerHandle MoveDoorTimerHangle_; 
-	FTimerDelegate MoveDoorTimerDelegate;
-	FTimerDelegate ExitDoorTimerDelegate;
-
+	FTimerHandle OpenDoorTimerHandle;
+	FTimerHandle CloseTimerHandle;
 };

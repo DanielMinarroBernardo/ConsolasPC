@@ -1,11 +1,13 @@
 "D:\Blank\Source\Blank\Private\InteractableDoor.cpp"
-/FI"D:\Blank\Intermediate\Build\Win64\x64\BlankEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"D:\Blank\Intermediate\Build\Win64\x64\BlankEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h"
 /FI"D:\Blank\Intermediate\Build\Win64\x64\UnrealEditor\Development\Blank\Definitions.Blank.h"
-/Yu"D:\Blank\Intermediate\Build\Win64\x64\BlankEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"D:\Blank\Intermediate\Build\Win64\x64\BlankEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Yu"D:\Blank\Intermediate\Build\Win64\x64\BlankEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h"
+/Fp"D:\Blank\Intermediate\Build\Win64\x64\BlankEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h.pch"
 /Fo"D:\Blank\Intermediate\Build\Win64\x64\UnrealEditor\Development\Blank\InteractableDoor.cpp.lc.obj"
+/experimental:log "D:\Blank\Intermediate\Build\Win64\x64\UnrealEditor\Development\Blank\InteractableDoor.cpp.sarif"
 /sourceDependencies"D:\Blank\Intermediate\Build\Win64\x64\UnrealEditor\Development\Blank\InteractableDoor.cpp.dep.lc.json"
 @"D:\Blank\Intermediate\Build\Win64\x64\UnrealEditor\Development\Blank\Blank.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi

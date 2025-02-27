@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\blank\\source\\blank\\private\\myactor.cpp",
+        "Source": "d:\\danielrepos\\consolaspc\\blank\\source\\blank\\private\\myactor.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\blank\\intermediate\\build\\win64\\x64\\blankeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
+        "PCH": "d:\\danielrepos\\consolaspc\\blank\\intermediate\\build\\win64\\x64\\blankeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
         "Includes": [
-            "d:\\blank\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blank\\definitions.blank.h",
-            "d:\\blank\\source\\blank\\public\\myactor.h",
-            "d:\\blank\\intermediate\\build\\win64\\unrealeditor\\inc\\blank\\uht\\myactor.generated.h"
+            "d:\\danielrepos\\consolaspc\\blank\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blank\\definitions.blank.h",
+            "d:\\danielrepos\\consolaspc\\blank\\source\\blank\\public\\myactor.h",
+            "d:\\danielrepos\\consolaspc\\blank\\intermediate\\build\\win64\\unrealeditor\\inc\\blank\\uht\\myactor.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

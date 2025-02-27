@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Blank/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Blank/Content/Maps/NewWorld_P.umap",
+				"D:/Blank/Content/Maps/NewWorld_GMP.umap",
+				"D:/Blank/Content/Blueprint/BP_InteractableDoor.uasset",
+				"D:/Blank/Content/Blueprint/BP_Door.uasset",
+				"D:/Blank/Content/Blueprint/BP_MyActor.uasset",
+				"D:/Blank/Content/Maps/NewWorld.umap"
+			]
+		}
+	]
+}

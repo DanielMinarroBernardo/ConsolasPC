@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\blank\\intermediate\\build\\win64\\unrealeditor\\inc\\blank\\uht\\blank.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\blank\\intermediate\\build\\win64\\x64\\blankeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "d:\\blank\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\blank\\definitions.blank.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

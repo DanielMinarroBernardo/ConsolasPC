@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Blank",
+			"Path": "..\\Source\\Blank.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BlankEditor",
+			"Path": "..\\Source\\BlankEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

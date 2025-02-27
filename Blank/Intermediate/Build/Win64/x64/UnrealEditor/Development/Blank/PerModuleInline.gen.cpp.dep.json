@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\blank\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blank\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\blank\\intermediate\\build\\win64\\x64\\blankeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "d:\\blank\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blank\\definitions.blank.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

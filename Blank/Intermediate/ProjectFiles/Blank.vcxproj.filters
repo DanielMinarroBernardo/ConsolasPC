@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Blank.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Blank.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BlankEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Blank">
+      <UniqueIdentifier>{E87C3D4D-F53F-3D1D-AF98-8B94C500C42A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Blank\Blank.Build.cs">
+      <Filter>Source\Blank</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Blank\Blank.cpp">
+      <Filter>Source\Blank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Blank.h">
+      <Filter>Source\Blank</Filter>
+    </ClCompile>
+    <Filter Include="Source\Blank\Private">
+      <UniqueIdentifier>{551671F9-70B2-3A24-9F75-9DBEF8C56125}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blank\Private\InteractableDoor.cpp">
+      <Filter>Source\Blank\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Private\MyActor.cpp">
+      <Filter>Source\Blank\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Blank\Public">
+      <UniqueIdentifier>{10AD802B-578B-3419-B41F-4B02D3AD896F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blank\Public\InteractableDoor.h">
+      <Filter>Source\Blank\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Public\MyActor.h">
+      <Filter>Source\Blank\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

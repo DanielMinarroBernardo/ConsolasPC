@@ -13,6 +13,8 @@ void EmptyLinkFunctionForGeneratedCodeInteractableDoor() {}
 // Begin Cross Module References
 BLANK_API UClass* Z_Construct_UClass_AInteractableDoor();
 BLANK_API UClass* Z_Construct_UClass_AInteractableDoor_NoRegister();
+BLANK_API UClass* Z_Construct_UClass_UInteractionInterface_NoRegister();
+BLANK_API UEnum* Z_Construct_UEnum_Blank_EInteractionType();
 BLANK_API UFunction* Z_Construct_UDelegateFunction_Blank_OnDoorMove__DelegateSignature();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
@@ -108,6 +110,73 @@ DEFINE_FUNCTION(AInteractableDoor::execCloseDoor)
 	P_NATIVE_END;
 }
 // End Class AInteractableDoor Function CloseDoor
+
+// Begin Class AInteractableDoor Function Interact
+struct InteractableDoor_eventInteract_Parms
+{
+	EInteractionType InteractionType;
+};
+static const FName NAME_AInteractableDoor_Interact = FName(TEXT("Interact"));
+void AInteractableDoor::Interact(EInteractionType InteractionType)
+{
+	UFunction* Func = FindFunctionChecked(NAME_AInteractableDoor_Interact);
+	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
+	{
+		InteractableDoor_eventInteract_Parms Parms;
+		Parms.InteractionType=InteractionType;
+	ProcessEvent(Func,&Parms);
+	}
+	else
+	{
+		Interact_Implementation(InteractionType);
+	}
+}
+struct Z_Construct_UFunction_AInteractableDoor_Interact_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interface" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/*INTERFACES*/" },
+#endif
+		{ "ModuleRelativePath", "Public/InteractableDoor.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "INTERFACES" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FBytePropertyParams NewProp_InteractionType_Underlying;
+	static const UECodeGen_Private::FEnumPropertyParams NewProp_InteractionType;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AInteractableDoor_Interact_Statics::NewProp_InteractionType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_AInteractableDoor_Interact_Statics::NewProp_InteractionType = { "InteractionType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InteractableDoor_eventInteract_Parms, InteractionType), Z_Construct_UEnum_Blank_EInteractionType, METADATA_PARAMS(0, nullptr) }; // 1751724508
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AInteractableDoor_Interact_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AInteractableDoor_Interact_Statics::NewProp_InteractionType_Underlying,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AInteractableDoor_Interact_Statics::NewProp_InteractionType,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AInteractableDoor_Interact_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AInteractableDoor_Interact_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AInteractableDoor, nullptr, "Interact", nullptr, nullptr, Z_Construct_UFunction_AInteractableDoor_Interact_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AInteractableDoor_Interact_Statics::PropPointers), sizeof(InteractableDoor_eventInteract_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AInteractableDoor_Interact_Statics::Function_MetaDataParams), Z_Construct_UFunction_AInteractableDoor_Interact_Statics::Function_MetaDataParams) };
+static_assert(sizeof(InteractableDoor_eventInteract_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AInteractableDoor_Interact()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AInteractableDoor_Interact_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AInteractableDoor::execInteract)
+{
+	P_GET_ENUM(EInteractionType,Z_Param_InteractionType);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->Interact_Implementation(EInteractionType(Z_Param_InteractionType));
+	P_NATIVE_END;
+}
+// End Class AInteractableDoor Function Interact
 
 // Begin Class AInteractableDoor Function OnBooTriggerOverlap
 struct Z_Construct_UFunction_AInteractableDoor_OnBooTriggerOverlap_Statics
@@ -365,6 +434,7 @@ void AInteractableDoor::StaticRegisterNativesAInteractableDoor()
 	UClass* Class = AInteractableDoor::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "CloseDoor", &AInteractableDoor::execCloseDoor },
+		{ "Interact", &AInteractableDoor::execInteract },
 		{ "OnBooTriggerOverlap", &AInteractableDoor::execOnBooTriggerOverlap },
 		{ "OnDoorTriggerOverlap", &AInteractableDoor::execOnDoorTriggerOverlap },
 		{ "OpenDoor", &AInteractableDoor::execOpenDoor },
@@ -446,12 +516,14 @@ struct Z_Construct_UClass_AInteractableDoor_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_AInteractableDoor_CloseDoor, "CloseDoor" }, // 3668877248
+		{ &Z_Construct_UFunction_AInteractableDoor_Interact, "Interact" }, // 1493588709
 		{ &Z_Construct_UFunction_AInteractableDoor_OnBooTriggerOverlap, "OnBooTriggerOverlap" }, // 2780221198
 		{ &Z_Construct_UFunction_AInteractableDoor_OnDoorTriggerOverlap, "OnDoorTriggerOverlap" }, // 547538652
 		{ &Z_Construct_UFunction_AInteractableDoor_OpenDoor, "OpenDoor" }, // 1439954948
 		{ &Z_Construct_UFunction_AInteractableDoor_UpdateMoveDoor, "UpdateMoveDoor" }, // 3316197284
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
+	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AInteractableDoor>::IsAbstract,
 	};
@@ -479,6 +551,9 @@ UObject* (*const Z_Construct_UClass_AInteractableDoor_Statics::DependentSingleto
 	(UObject* (*)())Z_Construct_UPackage__Script_Blank,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AInteractableDoor_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AInteractableDoor_Statics::InterfaceParams[] = {
+	{ Z_Construct_UClass_UInteractionInterface_NoRegister, (int32)VTABLE_OFFSET(AInteractableDoor, IInteractionInterface), false },  // 2351282956
+};
 const UECodeGen_Private::FClassParams Z_Construct_UClass_AInteractableDoor_Statics::ClassParams = {
 	&AInteractableDoor::StaticClass,
 	"Engine",
@@ -486,11 +561,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AInteractableDoor_Stati
 	DependentSingletons,
 	FuncInfo,
 	Z_Construct_UClass_AInteractableDoor_Statics::PropPointers,
-	nullptr,
+	InterfaceParams,
 	UE_ARRAY_COUNT(DependentSingletons),
 	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_AInteractableDoor_Statics::PropPointers),
-	0,
+	UE_ARRAY_COUNT(InterfaceParams),
 	0x009000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AInteractableDoor_Statics::Class_MetaDataParams), Z_Construct_UClass_AInteractableDoor_Statics::Class_MetaDataParams)
 };
@@ -514,10 +589,10 @@ AInteractableDoor::~AInteractableDoor() {}
 struct Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AInteractableDoor, AInteractableDoor::StaticClass, TEXT("AInteractableDoor"), &Z_Registration_Info_UClass_AInteractableDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractableDoor), 351655338U) },
+		{ Z_Construct_UClass_AInteractableDoor, AInteractableDoor::StaticClass, TEXT("AInteractableDoor"), &Z_Registration_Info_UClass_AInteractableDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractableDoor), 3558077386U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_2748272246(TEXT("/Script/Blank"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_2558358897(TEXT("/Script/Blank"),
 	Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

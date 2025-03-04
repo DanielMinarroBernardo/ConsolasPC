@@ -45,7 +45,13 @@
     <ClCompile Include="..\..\Source\Blank\Private\InteractableDoor.cpp">
       <Filter>Source\Blank\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Private\InteractionInterface.cpp">
+      <Filter>Source\Blank\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Blank\Private\MyActor.cpp">
+      <Filter>Source\Blank\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Private\PlayerCharacter.cpp">
       <Filter>Source\Blank\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Blank\Public">
@@ -54,7 +60,13 @@
     <ClCompile Include="..\..\Source\Blank\Public\InteractableDoor.h">
       <Filter>Source\Blank\Public</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Public\InteractionInterface.h">
+      <Filter>Source\Blank\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Blank\Public\MyActor.h">
+      <Filter>Source\Blank\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Public\PlayerCharacter.h">
       <Filter>Source\Blank\Public</Filter>
     </ClCompile>
   </ItemGroup>

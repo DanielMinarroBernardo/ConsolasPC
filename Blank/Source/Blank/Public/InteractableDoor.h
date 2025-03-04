@@ -5,13 +5,14 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
+#include "InteractionInterface.h"
 #include "InteractableDoor.generated.h"
 
 //Espacio para meter los delegates
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDoorMove,bool, bOpened);
 
 UCLASS()
-class BLANK_API AInteractableDoor : public AActor
+class BLANK_API AInteractableDoor : public AActor, public IInteractionInterface
 {
 	GENERATED_BODY()
 	
@@ -74,6 +75,10 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void CloseDoor();
+
+	/*INTERFACES*/
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Interface")
+	void Interact(EInteractionType InteractionType);
 
 
 protected:

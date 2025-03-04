@@ -73,6 +73,19 @@ void AInteractableDoor::CloseDoor()
 	GetWorld()->GetTimerManager().SetTimer(OpenDoorTimerHandle, CloseDoorDelegate, DOOR_TIMER_RATE, true);
 }
 
+void AInteractableDoor::Interact_Implementation(EInteractionType InteractionType)
+{
+	switch (InteractionType)
+	{
+	case EInteractionType::Open:
+		OpenDoor();
+		break;
+	case EInteractionType::Close:
+		CloseDoor();
+		break;
+	}
+}
+
 
 // Called when the game starts or when spawned
 void AInteractableDoor::BeginPlay()

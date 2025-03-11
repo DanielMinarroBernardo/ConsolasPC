@@ -21,6 +21,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USpotLightComponent* FlashLight;
 
+
 	// Sets default values for this character's properties
 	APlayerCharacter();
 

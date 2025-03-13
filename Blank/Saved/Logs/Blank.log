@@ -1335,3 +1335,665 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.13-10.11.36:361][ 61]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 3.780465
 [2025.03.13-10.11.36:363][ 61]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -36188152
 [2025.03.13-10.11.36:363][ 61]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3.780465, Update Interval: 348.328491
+[2025.03.13-10.13.29:343][804]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.011 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.03.13-10.17.25:088][511]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 352.515869
+[2025.03.13-10.17.26:090][514]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.17.26:091][514]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 353.183594, Update Interval: 316.760162
+[2025.03.13-10.17.49:961][586]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-10.17.55:393][602]LogLiveCoding: Display:    Creando biblioteca D:\DanielRepos\ConsolasPC\Blank\Binaries\Win64\UnrealEditor-Blank.patch_0.lib y objeto D:\DanielRepos\ConsolasPC\Blank\Binaries\Win64\UnrealEditor-Blank.patch_0.exp
+[2025.03.13-10.17.55:810][603]LogClass: UPackage /Script/Blank Reload.
+[2025.03.13-10.17.55:810][603]LogClass: UClass RelocateComponent Reload.
+[2025.03.13-10.17.55:810][603]LogClass: Could not find existing class RelocateComponent in package /Script/Blank for reload, assuming new or modified class
+[2025.03.13-10.17.55:810][603]LogClass: Function MoveToEnd is new or belongs to a modified class.
+[2025.03.13-10.17.55:810][603]LogClass: Function MoveToStart is new or belongs to a modified class.
+[2025.03.13-10.17.55:826][603]Re-instancing RelocateComponent after reload.
+[2025.03.13-10.17.55:892][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.03.13-10.17.56:089][604]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2025.03.13-10.17.56:089][604]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.03.13-10.18.00:484][813]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.13-10.18.00:623][820]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.03.13-10.18.00:735][823]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.03.13-10.18.02:691][ 15]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Door.BP_Door
+[2025.03.13-10.18.02:693][ 15]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.03.13-10.18.02:738][ 15]LogStreaming: Display: FlushAsyncLoading(339): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.13-10.18.04:417][ 15]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.03.13-10.18.05:721][145]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.13-10.18.05:764][145]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_HorizontalDoor.BP_HorizontalDoor
+[2025.03.13-10.18.05:764][145]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.03.13-10.18.06:055][145]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.03.13-10.20.33:193][975]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.03.13-10.20.33:255][976]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.03.13-10.21.26:176][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.03.13-10.21.26:193][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.21.26:254][247]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.21.26:316][247]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Door.BP_Door]
+[2025.03.13-10.21.26:317][247]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.21.26:317][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.21.26:329][247]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.21.26:329][247]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door66499E254AF269C800BE46AA99712FDF.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.21.26:340][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.813 ms
+[2025.03.13-10.21.26:401][247]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.21.26:401][247]LogContentValidation: Enabled validators:
+[2025.03.13-10.21.26:401][247]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.21.26:401][247]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.21.26:401][247]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.21.26:401][247]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.21.26:401][247]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.21.26:401][247]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.21.26:402][247]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.21.37:657][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.03.13-10.21.37:667][567]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.21.37:718][567]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.21.37:778][567]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Door.BP_Door]
+[2025.03.13-10.21.37:778][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.21.37:778][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.21.37:782][567]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.21.37:782][567]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door51FFD3014F5E4ED83C0C90ADCAA87CD1.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.21.37:787][567]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.965 ms (total: 266.778 ms)
+[2025.03.13-10.21.37:854][567]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.21.37:854][567]LogContentValidation: Enabled validators:
+[2025.03.13-10.21.37:854][567]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.21.37:854][567]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.21.37:854][567]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.21.37:854][567]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.21.37:854][567]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.21.37:854][567]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.21.37:854][567]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.22.45:476][136]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 672.905945
+[2025.03.13-10.22.46:481][139]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.22.46:482][139]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 673.573792, Update Interval: 351.842407
+[2025.03.13-10.28.45:262][655]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1032.691040
+[2025.03.13-10.28.46:262][658]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.28.46:262][658]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1033.361206, Update Interval: 314.698334
+[2025.03.13-10.34.11:994][635]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1359.425415
+[2025.03.13-10.34.12:995][638]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.34.12:995][638]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1360.094849, Update Interval: 353.151642
+[2025.03.13-10.40.27:412][761]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1734.843872
+[2025.03.13-10.40.28:413][764]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.40.28:413][764]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1735.507080, Update Interval: 351.895508
+[2025.03.13-10.47.10:145][969]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2137.576904
+[2025.03.13-10.47.11:151][972]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.47.11:151][972]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2138.244385, Update Interval: 317.120880
+[2025.03.13-10.48.33:781][220]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-10.48.36:500][228]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.03.13-10.48.36:500][228]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2025.03.13-10.53.04:210][ 31]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2491.642090
+[2025.03.13-10.53.05:211][ 34]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.53.05:211][ 34]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2492.307373, Update Interval: 354.783173
+[2025.03.13-10.53.34:264][122]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-10.53.36:228][127]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.03.13-10.53.36:228][127]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2025.03.13-10.54.34:102][301]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-10.54.36:236][307]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.03.13-10.54.36:236][307]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2025.03.13-10.54.42:339][326]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-10.54.44:574][332]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.03.13-10.54.44:574][332]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2025.03.13-10.54.47:031][340]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-10.54.49:248][346]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.03.13-10.54.49:248][346]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2025.03.13-10.55.20:872][441]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-10.55.27:213][460]LogLiveCoding: Display:    Creando biblioteca D:\DanielRepos\ConsolasPC\Blank\Binaries\Win64\UnrealEditor-Blank.patch_1.lib y objeto D:\DanielRepos\ConsolasPC\Blank\Binaries\Win64\UnrealEditor-Blank.patch_1.exp
+[2025.03.13-10.55.27:325][460]LogClass: UPackage /Script/Blank Reload.
+[2025.03.13-10.55.27:325][460]LogClass: UClass InteractableDoor Reload.
+[2025.03.13-10.55.27:325][460]LogClass: Could not find existing class InteractableDoor in package /Script/Blank for reload, assuming new or modified class
+[2025.03.13-10.55.27:326][460]LogClass: Function CloseDoor is new or belongs to a modified class.
+[2025.03.13-10.55.27:326][460]LogClass: Function Interact is new or belongs to a modified class.
+[2025.03.13-10.55.27:326][460]LogClass: Function OnBooTriggerOverlap is new or belongs to a modified class.
+[2025.03.13-10.55.27:326][460]LogClass: Function OnDoorTriggerOverlap is new or belongs to a modified class.
+[2025.03.13-10.55.27:326][460]LogClass: Function OpenDoor is new or belongs to a modified class.
+[2025.03.13-10.55.27:326][460]LogClass: Function UpdateMoveDoor is new or belongs to a modified class.
+[2025.03.13-10.55.27:337][460]Re-instancing InteractableDoor after reload.
+[2025.03.13-10.55.27:534][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.03.13-10.55.28:073][461]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged, 2 functions remapped
+[2025.03.13-10.55.28:073][461]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.03.13-10.55.35:834][296]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.13-10.55.35:877][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.13-10.55.35:885][296]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.03.13-10.55.35:885][296]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.03.13-10.55.35:886][296]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.55.35:890][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003282s)
+[2025.03.13-10.55.35:890][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewWorld_P.NewWorld_P to /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P (0.003553s)
+[2025.03.13-10.55.35:944][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.03.13-10.55.35:948][296]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld_P
+[2025.03.13-10.55.35:950][296]LogPlayLevel: PIE: World Init took: (0.002808s)
+[2025.03.13-10.55.35:952][296]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.03.13-10.55.35:952][296]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.13-10.55.35:952][296]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.13-10.55.35:953][296]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.13-10.55.35:953][296]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.13-10.55.35:953][296]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.13-10.55.35:953][296]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.13-10.55.35:953][296]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.13-10.55.35:953][296]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.13-10.55.35:953][296]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.13-10.55.35:953][296]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.13-10.55.35:953][296]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.13-10.55.35:955][296]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.13-10.55.35:990][296]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (3- Realtek(R) Audio)
+[2025.03.13-10.55.35:991][296]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.13-10.55.35:991][296]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.13-10.55.35:991][296]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.13-10.55.35:992][296]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.03.13-10.55.35:992][296]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.03.13-10.55.35:994][296]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.03.13-10.55.35:995][296]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.03.13-10.55.35:995][296]LogInit: FAudioDevice initialized with ID 2.
+[2025.03.13-10.55.35:995][296]LogAudio: Display: Audio Device (ID: 2) registered with world 'NewWorld_P'.
+[2025.03.13-10.55.35:995][296]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.03.13-10.55.36:048][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.55.36:049][296]LogStreaming: Display: FlushAsyncLoading(531): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.13-10.55.36:057][296]LogLoad: Game class is 'BP_Gamemode_C'
+[2025.03.13-10.55.36:059][296]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P up for play (max tick rate 0) at 2025.03.13-11.55.36
+[2025.03.13-10.55.36:059][296]LogWorld: Bringing up level for play took: 0.001294
+[2025.03.13-10.55.36:061][296]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.03.13-10.55.36:104][296]PIE: Server logged in
+[2025.03.13-10.55.36:105][296]PIE: Play in editor total start time 0,254 seconds.
+[2025.03.13-10.55.45:747][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.55.45:748][331]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.55.45:750][331]LogSlate: Window 'Blank Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.03.13-10.55.45:755][331]LogWorld: UWorld::CleanupWorld for NewWorld_P, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-10.55.45:756][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.55.45:759][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.13-10.55.45:764][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.55.45:793][331]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.03.13-10.55.45:795][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.03.13-10.55.45:798][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.03.13-10.55.45:821][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2025.03.13-10.55.45:841][332]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: ================================================
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: Total job queries 64, among them cache hits 15 (23.44%), DDC hits 43 (67.19%), Duplicates 0 (0.00%)
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: Tracking 49 distinct input hashes that result in 41 distinct outputs (83.67%)
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: RAM used: 71,00 KiB of 1,60 GiB budget. Usage: 0.00%
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: Shaders Compiled: 6
+[2025.03.13-10.56.36:219][105]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.10 s
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Job execution time: average 1.77 s, max 1.84 s
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Job life time (pending + execution): average 1.87 s, max 1.93
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Shader code size: average 6,219 KiB, min 2,785 KiB, max 7,801 KiB
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.94 s
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Average processing rate: 3.10 jobs/sec
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Total thread time: 2,263 s
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Total thread preprocess time: 0,748 s
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Percentage time preprocessing: 33.06%
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Effective parallelization: 1.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.47 sec, max 0.48 sec, min 0.47 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.33 sec, max 0.34 sec, min 0.33 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 41.81% of total time (compiled    2 times, average 0.47 sec, max 0.48 sec, min 0.47 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 29.20% of total time (compiled    2 times, average 0.33 sec, max 0.34 sec, min 0.33 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                                  FHitProxyPS - 15.09% of total time (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                                  FHitProxyVS - 13.91% of total time (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display:                                                  FVelocityVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.03.13-10.56.36:220][105]LogShaderCompilers: Display: === Material stats ===
+[2025.03.13-10.56.36:221][105]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.03.13-10.56.36:221][105]LogShaderCompilers: Display: Materials Translated:    127
+[2025.03.13-10.56.36:221][105]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.03.13-10.56.36:221][105]LogShaderCompilers: Display: Material Translation Only: 0.03 s (34%)
+[2025.03.13-10.56.36:221][105]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.03.13-10.56.36:221][105]LogShaderCompilers: Display: Material Cache Hits: 26 (20%)
+[2025.03.13-10.56.36:221][105]LogShaderCompilers: Display: ================================================
+[2025.03.13-10.56.36:985][189]LogEditorTransaction: Undo Modify Component(s)
+[2025.03.13-10.56.57:279][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.03.13-10.56.57:293][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.56.57:333][502]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.56.57:396][502]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Door.BP_Door]
+[2025.03.13-10.56.57:396][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.56.57:396][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.56.57:400][502]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.56.57:401][502]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door1692848F40DFF84F00E1D7A92198DE24.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.56.57:406][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.120 ms (total: 378.898 ms)
+[2025.03.13-10.56.57:448][502]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.56.57:448][502]LogContentValidation: Enabled validators:
+[2025.03.13-10.56.57:449][502]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.56.57:449][502]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.56.57:449][502]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.56.57:449][502]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.56.57:449][502]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.56.57:449][502]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.56.57:449][502]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.56.57:849][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.56.57:884][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.56.57:884][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.56.57:884][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.56.57:888][541]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.56.57:888][541]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door0B31C175424572A3B8E35EA09FB8D9CF.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.56.57:894][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.484 ms (total: 423.383 ms)
+[2025.03.13-10.56.57:952][541]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.56.57:952][541]LogContentValidation: Enabled validators:
+[2025.03.13-10.56.57:952][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.56.57:952][541]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.56.57:952][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.56.57:952][541]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.56.57:952][541]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.56.57:952][541]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.56.57:952][541]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.56.59:709][746]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.13-10.56.59:715][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.13-10.56.59:715][746]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.56.59:717][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001691s)
+[2025.03.13-10.56.59:717][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewWorld_P.NewWorld_P to /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P (0.001820s)
+[2025.03.13-10.56.59:735][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.03.13-10.56.59:738][746]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld_P
+[2025.03.13-10.56.59:739][746]LogPlayLevel: PIE: World Init took: (0.001352s)
+[2025.03.13-10.56.59:740][746]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.03.13-10.56.59:740][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.13-10.56.59:740][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.13-10.56.59:740][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.13-10.56.59:740][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.13-10.56.59:740][746]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.13-10.56.59:740][746]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.13-10.56.59:740][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.13-10.56.59:740][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.13-10.56.59:740][746]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.13-10.56.59:740][746]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.13-10.56.59:740][746]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.13-10.56.59:742][746]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.13-10.56.59:776][746]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (3- Realtek(R) Audio)
+[2025.03.13-10.56.59:776][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.13-10.56.59:776][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.13-10.56.59:776][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.13-10.56.59:777][746]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.03.13-10.56.59:777][746]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.03.13-10.56.59:779][746]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.03.13-10.56.59:779][746]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.03.13-10.56.59:779][746]LogInit: FAudioDevice initialized with ID 3.
+[2025.03.13-10.56.59:779][746]LogAudio: Display: Audio Device (ID: 3) registered with world 'NewWorld_P'.
+[2025.03.13-10.56.59:780][746]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.03.13-10.56.59:814][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.56.59:814][746]LogLoad: Game class is 'BP_Gamemode_C'
+[2025.03.13-10.56.59:815][746]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P up for play (max tick rate 0) at 2025.03.13-11.56.59
+[2025.03.13-10.56.59:815][746]LogWorld: Bringing up level for play took: 0.000976
+[2025.03.13-10.56.59:818][746]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.03.13-10.56.59:821][746]PIE: Server logged in
+[2025.03.13-10.56.59:823][746]PIE: Play in editor total start time 0,109 seconds.
+[2025.03.13-10.57.06:844][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.57.06:845][532]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.57.06:845][532]LogSlate: Window 'Blank Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.03.13-10.57.06:849][532]LogWorld: UWorld::CleanupWorld for NewWorld_P, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-10.57.06:849][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.57.06:852][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.13-10.57.06:856][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.57.06:870][532]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.13-10.57.06:870][532]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.03.13-10.57.06:870][532]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.03.13-10.57.06:873][532]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.03.13-10.57.06:880][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.03.13-10.57.06:919][536]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.03.13-10.57.14:913][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.03.13-10.57.14:924][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.57.14:963][458]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.57.15:027][458]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Door.BP_Door]
+[2025.03.13-10.57.15:028][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.57.15:028][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.57.15:032][458]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.57.15:032][458]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door68C9FE9549A658B6BC2AF0936ACC807B.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.57.15:037][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.350 ms (total: 536.733 ms)
+[2025.03.13-10.57.15:099][458]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.57.15:099][458]LogContentValidation: Enabled validators:
+[2025.03.13-10.57.15:099][458]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.57.15:099][458]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.57.15:099][458]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.57.15:099][458]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.57.15:099][458]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.57.15:099][458]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.57.15:099][458]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.57.15:307][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.57.15:348][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.57.15:349][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.57.15:349][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.57.15:352][475]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.57.15:352][475]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_DoorA29D6B7E4B7D38DB0C1045A8D8FBE4B2.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.57.15:358][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.890 ms (total: 588.623 ms)
+[2025.03.13-10.57.15:420][475]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.57.15:420][475]LogContentValidation: Enabled validators:
+[2025.03.13-10.57.15:420][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.57.15:420][475]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.57.15:420][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.57.15:420][475]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.57.15:420][475]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.57.15:420][475]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.57.15:420][475]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.57.15:638][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.57.15:666][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.57.15:666][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.57.15:666][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.57.15:670][496]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.57.15:670][496]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door78A5AD254407DE22D7F82A850268338A.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.57.15:675][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 37.463 ms (total: 626.087 ms)
+[2025.03.13-10.57.15:735][496]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.57.15:735][496]LogContentValidation: Enabled validators:
+[2025.03.13-10.57.15:735][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.57.15:735][496]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.57.15:735][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.57.15:735][496]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.57.15:735][496]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.57.15:735][496]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.57.15:736][496]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.57.16:676][594]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.13-10.57.16:683][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.13-10.57.16:683][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.57.16:685][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001823s)
+[2025.03.13-10.57.16:685][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewWorld_P.NewWorld_P to /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P (0.001994s)
+[2025.03.13-10.57.16:701][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.03.13-10.57.16:704][594]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld_P
+[2025.03.13-10.57.16:706][594]LogPlayLevel: PIE: World Init took: (0.001342s)
+[2025.03.13-10.57.16:706][594]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.03.13-10.57.16:706][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.13-10.57.16:707][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.13-10.57.16:707][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.13-10.57.16:707][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.13-10.57.16:707][594]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.13-10.57.16:707][594]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.13-10.57.16:707][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.13-10.57.16:707][594]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.13-10.57.16:707][594]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.13-10.57.16:707][594]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.13-10.57.16:707][594]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.13-10.57.16:710][594]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.13-10.57.16:743][594]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (3- Realtek(R) Audio)
+[2025.03.13-10.57.16:743][594]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.13-10.57.16:743][594]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.13-10.57.16:743][594]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.13-10.57.16:743][594]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.03.13-10.57.16:743][594]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.03.13-10.57.16:746][594]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.03.13-10.57.16:746][594]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.03.13-10.57.16:746][594]LogInit: FAudioDevice initialized with ID 4.
+[2025.03.13-10.57.16:746][594]LogAudio: Display: Audio Device (ID: 4) registered with world 'NewWorld_P'.
+[2025.03.13-10.57.16:746][594]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.03.13-10.57.16:796][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.57.16:796][594]LogLoad: Game class is 'BP_Gamemode_C'
+[2025.03.13-10.57.16:797][594]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P up for play (max tick rate 0) at 2025.03.13-11.57.16
+[2025.03.13-10.57.16:797][594]LogWorld: Bringing up level for play took: 0.000972
+[2025.03.13-10.57.16:800][594]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.03.13-10.57.16:803][594]PIE: Server logged in
+[2025.03.13-10.57.16:804][594]PIE: Play in editor total start time 0,123 seconds.
+[2025.03.13-10.57.22:164][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.57.22:164][190]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.57.22:165][190]LogSlate: Window 'Blank Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.03.13-10.57.22:168][190]LogWorld: UWorld::CleanupWorld for NewWorld_P, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-10.57.22:169][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.57.22:171][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.13-10.57.22:175][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.57.22:192][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.13-10.57.22:192][190]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.03.13-10.57.22:193][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.03.13-10.57.22:195][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.03.13-10.57.22:201][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.03.13-10.57.22:242][194]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.03.13-10.59.16:296][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.03.13-10.59.16:307][457]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.59.16:366][457]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-10.59.16:421][457]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Door.BP_Door]
+[2025.03.13-10.59.16:421][457]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-10.59.16:421][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-10.59.16:425][457]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-10.59.16:426][457]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_DoorB621ECFE41E6D71F8C7C38BA378437B9.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-10.59.16:430][457]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.636 ms (total: 749.723 ms)
+[2025.03.13-10.59.16:484][457]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-10.59.16:484][457]LogContentValidation: Enabled validators:
+[2025.03.13-10.59.16:484][457]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-10.59.16:484][457]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-10.59.16:484][457]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-10.59.16:484][457]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-10.59.16:484][457]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-10.59.16:484][457]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-10.59.16:484][457]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-10.59.17:435][565]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.13-10.59.17:442][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.13-10.59.17:442][565]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.59.17:444][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2025.03.13-10.59.17:444][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewWorld_P.NewWorld_P to /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P (0.001910s)
+[2025.03.13-10.59.17:460][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.03.13-10.59.17:462][565]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld_P
+[2025.03.13-10.59.17:464][565]LogPlayLevel: PIE: World Init took: (0.001618s)
+[2025.03.13-10.59.17:465][565]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.03.13-10.59.17:465][565]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.13-10.59.17:465][565]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.13-10.59.17:465][565]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.13-10.59.17:465][565]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.13-10.59.17:465][565]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.13-10.59.17:465][565]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.13-10.59.17:465][565]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.13-10.59.17:465][565]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.13-10.59.17:465][565]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.13-10.59.17:465][565]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.13-10.59.17:465][565]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.13-10.59.17:468][565]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.13-10.59.17:501][565]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (3- Realtek(R) Audio)
+[2025.03.13-10.59.17:501][565]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.13-10.59.17:501][565]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.13-10.59.17:501][565]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.13-10.59.17:502][565]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.03.13-10.59.17:502][565]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.03.13-10.59.17:505][565]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.03.13-10.59.17:505][565]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.03.13-10.59.17:505][565]LogInit: FAudioDevice initialized with ID 5.
+[2025.03.13-10.59.17:505][565]LogAudio: Display: Audio Device (ID: 5) registered with world 'NewWorld_P'.
+[2025.03.13-10.59.17:505][565]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.03.13-10.59.17:548][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.59.17:549][565]LogLoad: Game class is 'BP_Gamemode_C'
+[2025.03.13-10.59.17:550][565]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewWorld_P.NewWorld_P up for play (max tick rate 0) at 2025.03.13-11.59.17
+[2025.03.13-10.59.17:550][565]LogWorld: Bringing up level for play took: 0.001419
+[2025.03.13-10.59.17:553][565]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.03.13-10.59.17:556][565]PIE: Server logged in
+[2025.03.13-10.59.17:558][565]PIE: Play in editor total start time 0,118 seconds.
+[2025.03.13-10.59.25:685][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-10.59.25:685][487]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewWorld_P
+[2025.03.13-10.59.25:686][487]LogSlate: Window 'Blank Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.03.13-10.59.25:691][487]LogWorld: UWorld::CleanupWorld for NewWorld_P, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-10.59.25:691][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.59.25:694][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.13-10.59.25:698][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.59.25:713][487]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.13-10.59.25:713][487]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.03.13-10.59.25:713][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.03.13-10.59.25:716][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.03.13-10.59.25:722][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.03.13-10.59.25:745][489]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.03.13-10.59.47:903][961]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2895.329102
+[2025.03.13-10.59.48:910][964]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.59.48:910][964]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2895.996338, Update Interval: 336.906036
+[2025.03.13-11.01.04:132][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.03.13-11.01.04:143][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.01.04:201][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-11.01.04:264][658]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Door.BP_Door]
+[2025.03.13-11.01.04:264][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-11.01.04:264][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-11.01.04:268][658]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-11.01.04:269][658]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door379462E54A1DFBF8A95195A1FA9B9AF2.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-11.01.04:274][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.533 ms (total: 880.257 ms)
+[2025.03.13-11.01.04:338][658]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-11.01.04:338][658]LogContentValidation: Enabled validators:
+[2025.03.13-11.01.04:338][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-11.01.04:338][658]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-11.01.04:338][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-11.01.04:338][658]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-11.01.04:338][658]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-11.01.04:338][658]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-11.01.04:338][658]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-11.01.04:841][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.01.04:901][710]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-11.01.04:901][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-11.01.04:901][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-11.01.04:905][710]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-11.01.04:905][710]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door939FF0C84207156D89AF8CA3B0EEC651.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-11.01.04:912][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.977 ms (total: 951.234 ms)
+[2025.03.13-11.01.04:968][710]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-11.01.04:968][710]LogContentValidation: Enabled validators:
+[2025.03.13-11.01.04:968][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-11.01.04:968][710]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-11.01.04:968][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-11.01.04:968][710]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-11.01.04:968][710]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-11.01.04:968][710]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-11.01.04:968][710]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-11.01.57:790][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.01.57:850][971]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/BP_Door] ([2] browsable assets)...
+[2025.03.13-11.01.57:850][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Door]
+[2025.03.13-11.01.57:850][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2025.03.13-11.01.57:854][971]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_Door
+[2025.03.13-11.01.57:854][971]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/BP_Door4B8BA6344EEF29C9F8BFF68598A68237.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset'
+[2025.03.13-11.01.57:859][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.799 ms (total: 1.02 sec)
+[2025.03.13-11.01.57:897][971]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-11.01.57:898][971]LogContentValidation: Enabled validators:
+[2025.03.13-11.01.57:898][971]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-11.01.57:898][971]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-11.01.57:898][971]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-11.01.57:898][971]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-11.01.57:898][971]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-11.01.57:898][971]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-11.01.57:898][971]AssetCheck: /Game/Blueprint/BP_Door Validating asset
+[2025.03.13-11.02.46:868][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.03.13-11.02.46:882][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewWorld_P" FILE="D:/DanielRepos/ConsolasPC/Blank/Saved/Autosaves/Game/Maps/NewWorld_P_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2025.03.13-11.02.46:891][922]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/NewWorld_P_Auto1
+[2025.03.13-11.02.46:892][922]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/NewWorld_P_Auto1FB9C7BBD4E3353DFDEFECD968734624C.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Saved/Autosaves/Game/Maps/NewWorld_P_Auto1.umap'
+[2025.03.13-11.02.46:899][922]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/NewWorld_P' took 0.043
+[2025.03.13-11.02.46:899][922]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
+[2025.03.13-11.06.17:272][701]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3284.703369
+[2025.03.13-11.06.18:277][704]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.06.18:277][704]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3285.369873, Update Interval: 352.571198
+[2025.03.13-11.12.55:361][895]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3682.788086
+[2025.03.13-11.12.56:360][898]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.12.56:360][898]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3683.453125, Update Interval: 311.492065
+[2025.03.13-11.13.29:380][998]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.03.13-11.16.37:304][561]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.03.13-11.16.52:979][608]LogLiveCoding: Display:    Creando biblioteca D:\DanielRepos\ConsolasPC\Blank\Binaries\Win64\UnrealEditor-Blank.patch_2.lib y objeto D:\DanielRepos\ConsolasPC\Blank\Binaries\Win64\UnrealEditor-Blank.patch_2.exp
+[2025.03.13-11.16.53:147][608]LogClass: UPackage /Script/Blank Reload.
+[2025.03.13-11.16.53:147][608]LogClass: UClass InteractableDoor Reload.
+[2025.03.13-11.16.53:147][608]LogClass: UClass RelocateSceneComponent Reload.
+[2025.03.13-11.16.53:147][608]LogClass: Could not find existing class InteractableDoor in package /Script/Blank for reload, assuming new or modified class
+[2025.03.13-11.16.53:148][608]LogClass: Function CloseDoor is new or belongs to a modified class.
+[2025.03.13-11.16.53:148][608]LogClass: Function Interact is new or belongs to a modified class.
+[2025.03.13-11.16.53:148][608]LogClass: Function OnBooTriggerOverlap is new or belongs to a modified class.
+[2025.03.13-11.16.53:148][608]LogClass: Function OnDoorTriggerOverlap is new or belongs to a modified class.
+[2025.03.13-11.16.53:148][608]LogClass: Function OpenDoor is new or belongs to a modified class.
+[2025.03.13-11.16.53:148][608]LogClass: Function UpdateMoveDoor is new or belongs to a modified class.
+[2025.03.13-11.16.53:150][608]LogClass: Could not find existing class RelocateSceneComponent in package /Script/Blank for reload, assuming new or modified class
+[2025.03.13-11.16.53:150][608]LogClass: Function MoveToEnd is new or belongs to a modified class.
+[2025.03.13-11.16.53:150][608]LogClass: Function MoveToStart is new or belongs to a modified class.
+[2025.03.13-11.16.53:158][608]Re-instancing RelocateSceneComponent after reload.
+[2025.03.13-11.16.53:204][608]Re-instancing InteractableDoor after reload.
+[2025.03.13-11.16.53:206][608]LogBlueprint: Warning: [AssetLog] D:\DanielRepos\ConsolasPC\Blank\Content\Blueprint\BP_Door.uasset: [Compiler] SCS Node component template RelocateSceneCMP has been recreated because it was unexpectedly not owned by the class
+[2025.03.13-11.16.53:374][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.03.13-11.16.53:854][609]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed, 1 class unchanged, 2 functions remapped
+[2025.03.13-11.16.53:854][609]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.03.13-11.18.27:217][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.03.13-11.18.36:933][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.03.13-11.18.38:321][854]LogSlate: Window 'Save Content' being destroyed
+[2025.03.13-11.18.38:330][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.18.38:363][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewWorld_P" FILE="D:/DanielRepos/ConsolasPC/Blank/Content/Maps/NewWorld_P.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.13-11.18.38:404][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.03.13-11.18.38:411][854]LogSavePackage: Moving output files for package: /Game/Maps/NewWorld_P
+[2025.03.13-11.18.38:411][854]LogSavePackage: Moving 'D:/DanielRepos/ConsolasPC/Blank/Saved/NewWorld_P6D7627FE4FAE68B9EAE7A5AD89376F34.tmp' to 'D:/DanielRepos/ConsolasPC/Blank/Content/Maps/NewWorld_P.umap'
+[2025.03.13-11.18.38:423][854]LogFileHelpers: Saving map 'NewWorld_P' took 0.060
+[2025.03.13-11.18.38:431][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.919 ms (total: 1.12 sec)
+[2025.03.13-11.18.38:483][854]LogStall: Shutdown...
+[2025.03.13-11.18.38:483][854]LogStall: Shutdown complete.
+[2025.03.13-11.18.38:518][854]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:518][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:565][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.03.13-11.18.38:565][854]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:566][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:624][854]LogSlate: Window 'Blank - Unreal Editor' being destroyed
+[2025.03.13-11.18.38:676][854]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.13-11.18.38:677][854]LogContentValidation: Enabled validators:
+[2025.03.13-11.18.38:677][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.13-11.18.38:677][854]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.13-11.18.38:677][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.13-11.18.38:677][854]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.13-11.18.38:677][854]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.13-11.18.38:677][854]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.13-11.18.38:677][854]AssetCheck: /Game/Maps/NewWorld_P Validating asset
+[2025.03.13-11.18.38:703][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.03.13-11.18.38:714][854]Cmd: QUIT_EDITOR
+[2025.03.13-11.18.38:715][854]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.13-11.18.38:720][855]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.13-11.18.38:721][855]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.13-11.18.38:721][855]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.13-11.18.38:722][855]LogWorld: UWorld::CleanupWorld for NewWorld_P, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:722][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:722][855]LogWorld: UWorld::CleanupWorld for NewWorld_GMP, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:722][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:737][855]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.03.13-11.18.38:741][855]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.13-11.18.38:747][855]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:747][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:749][855]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:749][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:752][855]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:752][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:754][855]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:754][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:756][855]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.18.38:756][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.18.38:762][855]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.13-11.18.38:766][855]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.03.13-11.18.38:766][855]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.03.13-11.18.38:766][855]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.03.13-11.18.38:771][855]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.13-11.18.38:771][855]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.13-11.18.38:771][855]LogAudio: Display: Audio Device unregistered from world 'NewWorld_P'.
+[2025.03.13-11.18.38:771][855]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.03.13-11.18.38:771][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.13-11.18.38:774][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.13-11.18.38:783][855]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.03.13-11.18.38:783][855]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.13-11.18.38:784][855]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2025.03.13-11.18.38:786][855]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.13-11.18.38:786][855]LogExit: Preparing to exit.
+[2025.03.13-11.18.38:820][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.03.13-11.18.38:821][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:821][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:822][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.38:823][855]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.13-11.18.39:097][855]LogEditorDataStorage: Deinitializing
+[2025.03.13-11.18.39:217][855]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.13-11.18.39:242][855]LogExit: Editor shut down
+[2025.03.13-11.18.39:244][855]LogExit: Transaction tracking system shut down
+[2025.03.13-11.18.39:450][855]LogExit: Object subsystem successfully closed.
+[2025.03.13-11.18.39:552][855]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.13-11.18.40:562][855]LogMemoryProfiler: Shutdown
+[2025.03.13-11.18.40:563][855]LogNetworkingProfiler: Shutdown
+[2025.03.13-11.18.40:563][855]LoadingProfiler: Shutdown
+[2025.03.13-11.18.40:564][855]LogTimingProfiler: Shutdown
+[2025.03.13-11.18.40:945][855]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.03.13-11.18.40:991][855]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.03.13-11.18.40:991][855]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8B3C89DA-4178-E960-ED55-FEA25DC54557%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.3-39772772%2B%2B%2BUE5%2BRelease-5.5&UserID=c44633ef47f9b12bb34e0e8091eac535%7C3f6be172c78048a8a113248050d91bcc%7Ca08be835-72fe-4b3e-a533-69f618ed6f4b&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.03.13-11.18.41:551][855]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.03.13-11.18.41:551][855]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.03.13-11.18.41:551][855]LogNFORDenoise: NFORDenoise function shutting down
+[2025.03.13-11.18.41:554][855]RenderDocPlugin: plugin has been unloaded.
+[2025.03.13-11.18.41:556][855]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.03.13-11.18.41:558][855]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.03.13-11.18.41:558][855]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.03.13-11.18.41:558][855]LogPakFile: Destroying PakPlatformFile
+[2025.03.13-11.18.41:734][855]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.03.13-11.18.41:768][855]LogExit: Exiting.
+[2025.03.13-11.18.41:784][855]Log file closed, 03/13/25 12:18:41

@@ -14,6 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BLANK_RelocateSceneComponent_generated_h
 
+#define FID_Blank_Source_Blank_Public_RelocateSceneComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execMoveToEnd); \
+	DECLARE_FUNCTION(execMoveToStart);
+
+
 #define FID_Blank_Source_Blank_Public_RelocateSceneComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesURelocateSceneComponent(); \
@@ -39,6 +44,7 @@ public: \
 #define FID_Blank_Source_Blank_Public_RelocateSceneComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_Blank_Source_Blank_Public_RelocateSceneComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Blank_Source_Blank_Public_RelocateSceneComponent_h_13_INCLASS_NO_PURE_DECLS \
 	FID_Blank_Source_Blank_Public_RelocateSceneComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \

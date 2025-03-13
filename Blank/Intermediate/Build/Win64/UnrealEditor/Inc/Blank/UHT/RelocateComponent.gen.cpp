@@ -16,7 +16,6 @@ BLANK_API UFunction* Z_Construct_UDelegateFunction_Blank_OnFinished__DelegateSig
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
-ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Blank();
 // End Cross Module References
 
@@ -146,9 +145,8 @@ struct Z_Construct_UClass_URelocateComponent_Statics
 		{ "Category", "RelocateCmp" },
 		{ "ModuleRelativePath", "Public/RelocateComponent.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp__StaticMesh_MetaData[] = {
-		{ "Category", "RelocateComponent" },
-		{ "EditInline", "true" },
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StaticMeshTag_MetaData[] = {
+		{ "Category", "RelocateCmp" },
 		{ "ModuleRelativePath", "Public/RelocateComponent.h" },
 	};
 #endif // WITH_METADATA
@@ -156,7 +154,7 @@ struct Z_Construct_UClass_URelocateComponent_Statics
 	static const UECodeGen_Private::FStructPropertyParams NewProp_FinalRotation;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_InitialLocation;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_FinalLocation;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp__StaticMesh;
+	static const UECodeGen_Private::FNamePropertyParams NewProp_StaticMeshTag;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -173,13 +171,13 @@ const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_URelocateCompo
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_URelocateComponent_Statics::NewProp_FinalRotation = { "FinalRotation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URelocateComponent, FinalRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FinalRotation_MetaData), NewProp_FinalRotation_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_URelocateComponent_Statics::NewProp_InitialLocation = { "InitialLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URelocateComponent, InitialLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InitialLocation_MetaData), NewProp_InitialLocation_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_URelocateComponent_Statics::NewProp_FinalLocation = { "FinalLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URelocateComponent, FinalLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FinalLocation_MetaData), NewProp_FinalLocation_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_URelocateComponent_Statics::NewProp__StaticMesh = { "_StaticMesh", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URelocateComponent, _StaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp__StaticMesh_MetaData), NewProp__StaticMesh_MetaData) };
+const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_URelocateComponent_Statics::NewProp_StaticMeshTag = { "StaticMeshTag", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URelocateComponent, StaticMeshTag), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StaticMeshTag_MetaData), NewProp_StaticMeshTag_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_URelocateComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URelocateComponent_Statics::NewProp_InitialRotation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URelocateComponent_Statics::NewProp_FinalRotation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URelocateComponent_Statics::NewProp_InitialLocation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URelocateComponent_Statics::NewProp_FinalLocation,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URelocateComponent_Statics::NewProp__StaticMesh,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URelocateComponent_Statics::NewProp_StaticMeshTag,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URelocateComponent_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_URelocateComponent_Statics::DependentSingletons[])() = {
@@ -222,10 +220,10 @@ URelocateComponent::~URelocateComponent() {}
 struct Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_RelocateComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_URelocateComponent, URelocateComponent::StaticClass, TEXT("URelocateComponent"), &Z_Registration_Info_UClass_URelocateComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URelocateComponent), 463529165U) },
+		{ Z_Construct_UClass_URelocateComponent, URelocateComponent::StaticClass, TEXT("URelocateComponent"), &Z_Registration_Info_UClass_URelocateComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URelocateComponent), 1041905803U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_RelocateComponent_h_286732214(TEXT("/Script/Blank"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_RelocateComponent_h_3485248586(TEXT("/Script/Blank"),
 	Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_RelocateComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_RelocateComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -12,9 +12,29 @@ class BLANK_API URelocateSceneComponent : public USceneComponent
 {
 	GENERATED_BODY()
 
+
 public:	
 	// Sets default values for this component's properties
 	URelocateSceneComponent();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RelocateCmp")
+	FRotator InitialRotation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RelocateCmp")
+	FRotator FinalRotation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RelocateCmp")
+	FVector InitialLocation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RelocateCmp")
+	FVector FinalLocation;
+
+	UFUNCTION(BlueprintCallable, Category = "RelocateCmp")
+	void MoveToStart();
+
+	UFUNCTION(BlueprintCallable, Category = "RelocateCmp")
+	void MoveToEnd();
+
+
+	UStaticMeshComponent* _StaticMesh;
 
 protected:
 	// Called when the game starts

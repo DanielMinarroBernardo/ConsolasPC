@@ -36,8 +36,10 @@ public:
 
 	
 	FOnFinished OnComponentFinished;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RelocateCmp")
+	FName StaticMeshTag;
 	
-	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	UStaticMeshComponent* _StaticMesh;
 
 

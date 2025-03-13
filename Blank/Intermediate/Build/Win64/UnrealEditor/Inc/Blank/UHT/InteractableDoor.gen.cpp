@@ -14,6 +14,8 @@ void EmptyLinkFunctionForGeneratedCodeInteractableDoor() {}
 BLANK_API UClass* Z_Construct_UClass_AInteractableDoor();
 BLANK_API UClass* Z_Construct_UClass_AInteractableDoor_NoRegister();
 BLANK_API UClass* Z_Construct_UClass_UInteractionInterface_NoRegister();
+BLANK_API UClass* Z_Construct_UClass_URelocateComponent_NoRegister();
+BLANK_API UClass* Z_Construct_UClass_URelocateSceneComponent_NoRegister();
 BLANK_API UEnum* Z_Construct_UEnum_Blank_EInteractionType();
 BLANK_API UFunction* Z_Construct_UDelegateFunction_Blank_OnDoorMove__DelegateSignature();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
@@ -504,6 +506,16 @@ struct Z_Construct_UClass_AInteractableDoor_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/InteractableDoor.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_myRelocateComponent_MetaData[] = {
+		{ "Category", "Setup" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/InteractableDoor.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_myRelocateSceneComponent_MetaData[] = {
+		{ "Category", "Setup" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/InteractableDoor.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnDoorMove;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_TargetRotationOpen;
@@ -512,6 +524,8 @@ struct Z_Construct_UClass_AInteractableDoor_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DoorMesh;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DoorTrigger;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_BooTrigger;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_myRelocateComponent;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_myRelocateSceneComponent;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -536,6 +550,8 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableD
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableDoor_Statics::NewProp_DoorMesh = { "DoorMesh", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableDoor, DoorMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorMesh_MetaData), NewProp_DoorMesh_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableDoor_Statics::NewProp_DoorTrigger = { "DoorTrigger", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableDoor, DoorTrigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorTrigger_MetaData), NewProp_DoorTrigger_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableDoor_Statics::NewProp_BooTrigger = { "BooTrigger", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableDoor, BooTrigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BooTrigger_MetaData), NewProp_BooTrigger_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableDoor_Statics::NewProp_myRelocateComponent = { "myRelocateComponent", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableDoor, myRelocateComponent), Z_Construct_UClass_URelocateComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_myRelocateComponent_MetaData), NewProp_myRelocateComponent_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractableDoor_Statics::NewProp_myRelocateSceneComponent = { "myRelocateSceneComponent", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInteractableDoor, myRelocateSceneComponent), Z_Construct_UClass_URelocateSceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_myRelocateSceneComponent_MetaData), NewProp_myRelocateSceneComponent_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInteractableDoor_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableDoor_Statics::NewProp_OnDoorMove,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableDoor_Statics::NewProp_TargetRotationOpen,
@@ -544,6 +560,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInteract
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableDoor_Statics::NewProp_DoorMesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableDoor_Statics::NewProp_DoorTrigger,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableDoor_Statics::NewProp_BooTrigger,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableDoor_Statics::NewProp_myRelocateComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractableDoor_Statics::NewProp_myRelocateSceneComponent,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AInteractableDoor_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AInteractableDoor_Statics::DependentSingletons[])() = {
@@ -589,10 +607,10 @@ AInteractableDoor::~AInteractableDoor() {}
 struct Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AInteractableDoor, AInteractableDoor::StaticClass, TEXT("AInteractableDoor"), &Z_Registration_Info_UClass_AInteractableDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractableDoor), 3558077386U) },
+		{ Z_Construct_UClass_AInteractableDoor, AInteractableDoor::StaticClass, TEXT("AInteractableDoor"), &Z_Registration_Info_UClass_AInteractableDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractableDoor), 4090971504U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_2558358897(TEXT("/Script/Blank"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_3565720552(TEXT("/Script/Blank"),
 	Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Blank_Source_Blank_Public_InteractableDoor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

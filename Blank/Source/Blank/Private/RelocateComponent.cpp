@@ -16,22 +16,27 @@ URelocateComponent::URelocateComponent()
 
 void URelocateComponent::MoveToStart()
 {
-	_StaticMesh->SetRelativeLocation(InitialLocation);
-	_StaticMesh->SetRelativeRotation(InitialRotation);
+	if (_StaticMesh) {
+		_StaticMesh->SetRelativeLocation(InitialLocation);
+		_StaticMesh->SetRelativeRotation(InitialRotation);
+
+	}
 }
 
 void URelocateComponent::MoveToEnd()
-{
-	_StaticMesh->SetRelativeLocation(FinalLocation);
-	_StaticMesh->SetRelativeRotation(FinalRotation);
+{	
+	if (_StaticMesh) {
+		_StaticMesh->SetRelativeRotation(FinalRotation);
+		_StaticMesh->SetRelativeLocation(FinalLocation);
+
+	}
 }
 
 // Called when the game starts
 void URelocateComponent::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	_StaticMesh = Cast<UStaticMeshComponent>(GetOwner());
+	_StaticMesh = GetOwner()->FindComponentByTag<UStaticMeshComponent>(StaticMeshTag);
 	// ...
 	checkf(/*Expresion a evaluar*/_StaticMesh,/*Mensaje en consola*/TEXT("Necesario Componenete StaticMesh"))
 	

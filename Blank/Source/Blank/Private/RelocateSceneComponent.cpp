@@ -14,12 +14,31 @@ URelocateSceneComponent::URelocateSceneComponent()
 }
 
 
+void URelocateSceneComponent::MoveToStart()
+{
+	if (_StaticMesh) {
+		_StaticMesh->SetRelativeLocation(InitialLocation);
+		_StaticMesh->SetRelativeRotation(InitialRotation);
+
+	}
+}
+
+void URelocateSceneComponent::MoveToEnd()
+{
+	if (_StaticMesh) {
+		_StaticMesh->SetRelativeRotation(FinalRotation);
+		_StaticMesh->SetRelativeLocation(FinalLocation);
+
+	}
+}
+
 // Called when the game starts
 void URelocateSceneComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
 	// ...
+	_StaticMesh = Cast<UStaticMeshComponent>(GetAttachParent());
 	
 }
 

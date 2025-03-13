@@ -18,11 +18,11 @@ struct FHitResult;
 #endif
 #define BLANK_InteractableDoor_generated_h
 
-#define FID_Blank_Source_Blank_Public_InteractableDoor_h_12_DELEGATE \
+#define FID_Blank_Source_Blank_Public_InteractableDoor_h_14_DELEGATE \
 BLANK_API void FOnDoorMove_DelegateWrapper(const FMulticastScriptDelegate& OnDoorMove, bool bOpened);
 
 
-#define FID_Blank_Source_Blank_Public_InteractableDoor_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Blank_Source_Blank_Public_InteractableDoor_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void Interact_Implementation(EInteractionType InteractionType); \
 	DECLARE_FUNCTION(execInteract); \
 	DECLARE_FUNCTION(execCloseDoor); \
@@ -32,8 +32,8 @@ BLANK_API void FOnDoorMove_DelegateWrapper(const FMulticastScriptDelegate& OnDoo
 	DECLARE_FUNCTION(execOnDoorTriggerOverlap);
 
 
-#define FID_Blank_Source_Blank_Public_InteractableDoor_h_17_CALLBACK_WRAPPERS
-#define FID_Blank_Source_Blank_Public_InteractableDoor_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Blank_Source_Blank_Public_InteractableDoor_h_19_CALLBACK_WRAPPERS
+#define FID_Blank_Source_Blank_Public_InteractableDoor_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAInteractableDoor(); \
 	friend struct Z_Construct_UClass_AInteractableDoor_Statics; \
@@ -43,7 +43,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AInteractableDoor*>(this); }
 
 
-#define FID_Blank_Source_Blank_Public_InteractableDoor_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Blank_Source_Blank_Public_InteractableDoor_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AInteractableDoor(AInteractableDoor&&); \
@@ -55,14 +55,14 @@ public: \
 	NO_API virtual ~AInteractableDoor();
 
 
-#define FID_Blank_Source_Blank_Public_InteractableDoor_h_14_PROLOG
-#define FID_Blank_Source_Blank_Public_InteractableDoor_h_17_GENERATED_BODY \
+#define FID_Blank_Source_Blank_Public_InteractableDoor_h_16_PROLOG
+#define FID_Blank_Source_Blank_Public_InteractableDoor_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Blank_Source_Blank_Public_InteractableDoor_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Blank_Source_Blank_Public_InteractableDoor_h_17_CALLBACK_WRAPPERS \
-	FID_Blank_Source_Blank_Public_InteractableDoor_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Blank_Source_Blank_Public_InteractableDoor_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Blank_Source_Blank_Public_InteractableDoor_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Blank_Source_Blank_Public_InteractableDoor_h_19_CALLBACK_WRAPPERS \
+	FID_Blank_Source_Blank_Public_InteractableDoor_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Blank_Source_Blank_Public_InteractableDoor_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

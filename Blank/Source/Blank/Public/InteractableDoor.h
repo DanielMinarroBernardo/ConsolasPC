@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
 #include "InteractionInterface.h"
+#include "RelocateComponent.h"
+#include "RelocateSceneComponent.h"
 #include "InteractableDoor.generated.h"
 
 //Espacio para meter los delegates
@@ -55,6 +57,12 @@ public:
 	UBoxComponent* BooTrigger;
 
 
+	UPROPERTY(Category = "Setup", EditAnywhere, BlueprintReadWrite)
+	URelocateComponent* myRelocateComponent;
+
+
+	UPROPERTY(Category = "Setup", EditAnywhere, BlueprintReadWrite)
+	URelocateSceneComponent* myRelocateSceneComponent;
 
 	
 	//FUNCTION

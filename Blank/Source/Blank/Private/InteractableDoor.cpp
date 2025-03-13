@@ -30,12 +30,30 @@ AInteractableDoor::AInteractableDoor()
 
 void AInteractableDoor::OnDoorTriggerOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	OpenDoor();
+	//OpenDoor();
+	
+	//Use of actor component
+	/*if (myRelocateComponent) {
+		myRelocateComponent->MoveToEnd();
+	}*/
+
+	//Use of scene component 
+	
 }
 
 void AInteractableDoor::OnBooTriggerOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	CloseDoor();
+	//CloseDoor();
+
+	//Use of actor component
+	/*if (myRelocateComponent) {
+		myRelocateComponent->MoveToStart();
+	}
+	*/
+
+	//Use of scene component 
+
+
 }
 
 void AInteractableDoor::UpdateMoveDoor(bool ShouldOpen)
@@ -92,6 +110,9 @@ void AInteractableDoor::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	//myRelocateComponent = GetComponentByClass<URelocateComponent>();
+
+	myRelocateSceneComponent = GetComponentByClass<URelocateSceneComponent>();
 	
 }
 

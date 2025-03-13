@@ -60,6 +60,9 @@
     <ClCompile Include="..\..\Source\Blank\Private\RelocateComponent.cpp">
       <Filter>Source\Blank\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Private\RelocateSceneComponent.cpp">
+      <Filter>Source\Blank\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Blank\Public">
       <UniqueIdentifier>{10AD802B-578B-3419-B41F-4B02D3AD896F}</UniqueIdentifier>
     </Filter>
@@ -79,6 +82,9 @@
       <Filter>Source\Blank\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Blank\Public\RelocateComponent.h">
+      <Filter>Source\Blank\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Public\RelocateSceneComponent.h">
       <Filter>Source\Blank\Public</Filter>
     </ClCompile>
   </ItemGroup>

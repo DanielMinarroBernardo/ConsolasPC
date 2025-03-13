@@ -3,7 +3,65 @@
     "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
     "runs": [
         {
-            "results": [],
+            "results": [
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'Cast::FStaticWarningMsg_137::condition': Attempting to use Cast<> on types that are not related"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/DanielRepos/ConsolasPC/Blank/Source/Blank/Private/RelocateComponent.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h"
+                                },
+                                "region": {
+                                    "startLine": 137,
+                                    "startColumn": 6
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h"
+                                },
+                                "region": {
+                                    "startLine": 137,
+                                    "startColumn": 6
+                                }
+                            },
+                            "message": {
+                                "text": "el contexto de creación de instancias de la plantilla (el más antiguo primero) es"
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/DanielRepos/ConsolasPC/Blank/Source/Blank/Private/RelocateComponent.cpp"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 16
+                                }
+                            },
+                            "message": {
+                                "text": "Vea la referencia a la creación de una instancia de la función plantilla \"To *Cast<UStaticMeshComponent,AActor>(From *)\" que se está compilando\n        with\n        [\n            To=UStaticMeshComponent,\n            From=AActor\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        }
+                    ]
+                }
+            ],
             "tool": {
                 "driver": {
                     "name": "MSVC",

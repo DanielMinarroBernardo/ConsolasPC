@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\usuario\\documents\\unreal projects\\practica0\\intermediate\\build\\win64\\unrealeditor\\inc\\practica0\\uht\\practica0.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\usuario\\documents\\unreal projects\\practica0\\intermediate\\build\\win64\\x64\\practica0editor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\usuario\\documents\\unreal projects\\practica0\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\practica0\\definitions.practica0.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

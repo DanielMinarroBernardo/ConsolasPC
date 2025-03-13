@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\git\\gitav\\ceu_gitav\\main\\intermediate\\build\\win64\\unrealeditor\\inc\\practica0\\uht\\relocatecmp.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\git\\gitav\\ceu_gitav\\main\\intermediate\\build\\win64\\x64\\practica0editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\git\\gitav\\ceu_gitav\\main\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\practica0\\definitions.practica0.h",
+            "e:\\git\\gitav\\ceu_gitav\\main\\source\\practica0\\ceucomponents\\relocatecmp.h",
+            "e:\\git\\gitav\\ceu_gitav\\main\\intermediate\\build\\win64\\unrealeditor\\inc\\practica0\\uht\\relocatecmp.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

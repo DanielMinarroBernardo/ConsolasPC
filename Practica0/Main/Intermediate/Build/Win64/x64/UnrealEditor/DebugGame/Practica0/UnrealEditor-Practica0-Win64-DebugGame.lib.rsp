@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Practica0-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\Practica0Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Practica0\InteractableDoor.gen.cpp.obj"
+"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Practica0\Practica0.init.gen.cpp.obj"
+"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Practica0\InteractableDoor.cpp.obj"
+"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Practica0\Practica0.cpp.obj"
+"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Practica0\PerModuleInline.gen.cpp.obj"
+"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Practica0\Default.rc2.res"
+/OUT:"C:\Users\Usuario\Documents\Unreal Projects\Practica0\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Practica0\UnrealEditor-Practica0-Win64-DebugGame.lib"

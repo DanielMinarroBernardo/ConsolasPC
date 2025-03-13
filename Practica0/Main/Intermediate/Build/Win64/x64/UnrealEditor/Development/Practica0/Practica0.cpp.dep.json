@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\git\\gitav\\ceu_gitav\\main\\source\\practica0\\practica0.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\git\\gitav\\ceu_gitav\\main\\intermediate\\build\\win64\\x64\\practica0editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\git\\gitav\\ceu_gitav\\main\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\practica0\\definitions.practica0.h",
+            "e:\\git\\gitav\\ceu_gitav\\main\\source\\practica0\\practica0.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

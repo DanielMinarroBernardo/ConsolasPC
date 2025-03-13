@@ -1,0 +1,3 @@
+// PCH for Editor/UnrealEd/Public/UnrealEdSharedPCH.h
+#include "C:/Users/Usuario/Documents/Unreal Projects/Practica0/Intermediate/Build/Win64/x64/Practica0Editor/DebugGame/UnrealEd/SharedDefinitions.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h"
+#include "Editor/UnrealEd/Public/UnrealEdSharedPCH.h"

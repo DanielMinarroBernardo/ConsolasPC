@@ -11,25 +11,72 @@ URelocateSceneComponent::URelocateSceneComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+	_State = ERelocationState::StartState;
 }
 
 
 void URelocateSceneComponent::MoveToStart()
 {
-	if (_StaticMesh) {
-		_StaticMesh->SetRelativeLocation(InitialLocation);
-		_StaticMesh->SetRelativeRotation(InitialRotation);
 
-	}
+	_State = ERelocationState::MovingToStart;	
 }
 
 void URelocateSceneComponent::MoveToEnd()
 {
+	_State = ERelocationState::MovingToEnd;
+}
+
+void URelocateSceneComponent::TeleportToStart()
+{
+	if (_StaticMesh) {
+		_StaticMesh->SetRelativeLocation(InitialLocation);
+		_StaticMesh->SetRelativeRotation(InitialRotation);
+		
+		_State = ERelocationState::StartState;
+
+
+	}
+		
+}
+
+void URelocateSceneComponent::TeleportToEnd()
+{
 	if (_StaticMesh) {
 		_StaticMesh->SetRelativeRotation(FinalRotation);
 		_StaticMesh->SetRelativeLocation(FinalLocation);
+		
+		_State = ERelocationState::EndState;
 
 	}
+}
+
+void URelocateSceneComponent::GoToNextState()
+{
+	switch (_State)
+	{
+	case ERelocationState::StartState:
+		SetState(ERelocationState::MovingToEnd);
+		break;
+	case ERelocationState::EndState:
+		SetState(ERelocationState::MovingToStart);
+		break;
+	case ERelocationState::MovingToStart:
+		SetState(ERelocationState::StartState);
+		break;
+	case ERelocationState::MovingToEnd:
+		SetState(ERelocationState::EndState);
+		break;
+	default:
+		break;
+	}
+}
+
+void URelocateSceneComponent::SetState(ERelocationState NewState)
+{
+	if (NewState == _State) return;
+
+
+
 }
 
 // Called when the game starts
@@ -37,9 +84,17 @@ void URelocateSceneComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
 	_StaticMesh = Cast<UStaticMeshComponent>(GetAttachParent());
+	// ...
 	
+	if (bMustBeginOnEndState) {
+		_State = ERelocationState::EndState;
+		TeleportToEnd();
+	}
+	else {
+		TeleportToStart();
+	}
+
 }
 
 

@@ -13,6 +13,10 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
             "d:\\danielrepos\\consolaspc\\blank\\source\\blank\\public\\interactioninterface.h",
             "d:\\danielrepos\\consolaspc\\blank\\intermediate\\build\\win64\\unrealeditor\\inc\\blank\\uht\\interactioninterface.generated.h",
+            "d:\\danielrepos\\consolaspc\\blank\\source\\blank\\public\\relocatecomponent.h",
+            "d:\\danielrepos\\consolaspc\\blank\\intermediate\\build\\win64\\unrealeditor\\inc\\blank\\uht\\relocatecomponent.generated.h",
+            "d:\\danielrepos\\consolaspc\\blank\\source\\blank\\public\\relocatescenecomponent.h",
+            "d:\\danielrepos\\consolaspc\\blank\\intermediate\\build\\win64\\unrealeditor\\inc\\blank\\uht\\relocatescenecomponent.generated.h",
             "d:\\danielrepos\\consolaspc\\blank\\intermediate\\build\\win64\\unrealeditor\\inc\\blank\\uht\\interactabledoor.generated.h"
         ],
         "ImportedModules": [],

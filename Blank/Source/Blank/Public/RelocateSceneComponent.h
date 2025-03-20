@@ -7,6 +7,11 @@
 #include "RelocateSceneComponent.generated.h"
 
 
+UENUM(BlueprintType)
+enum class ERelocationState : uint8 {
+	StartState, EndState, MovingToStart , MovingToEnd
+};
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BLANK_API URelocateSceneComponent : public USceneComponent
 {
@@ -16,6 +21,9 @@ class BLANK_API URelocateSceneComponent : public USceneComponent
 public:	
 	// Sets default values for this component's properties
 	URelocateSceneComponent();
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	bool bMustBeginOnEndState;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RelocateCmp")
 	FRotator InitialRotation;
@@ -34,6 +42,18 @@ public:
 	void MoveToEnd();
 
 
+	UFUNCTION(BlueprintCallable, Category = "RelocateCmp")
+	void TeleportToStart();
+
+	UFUNCTION(BlueprintCallable, Category = "RelocateCmp")
+	void TeleportToEnd();
+
+	UFUNCTION(BlueprintCallable, Category = "RelocateCmp")
+	void GoToNextState();
+
+	UFUNCTION(BlueprintCallable, Category = "RelocateCmp")
+	void SetState(ERelocationState NewState);
+
 	UStaticMeshComponent* _StaticMesh;
 
 protected:
@@ -45,4 +65,6 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 		
+private:
+	ERelocationState _State;
 };

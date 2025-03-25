@@ -86,7 +86,7 @@ void URelocateSceneComponent::BeginPlay()
 
 	_StaticMesh = Cast<UStaticMeshComponent>(GetAttachParent());
 	// ...
-	
+
 	if (bMustBeginOnEndState) {
 		_State = ERelocationState::EndState;
 		TeleportToEnd();
@@ -96,7 +96,6 @@ void URelocateSceneComponent::BeginPlay()
 	}
 
 }
-
 
 // Called every frame
 void URelocateSceneComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)

@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/UI/WBP_HUD.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/ThirdPerson/Blueprints/BP_DamageFloor.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/LR/ZK8W9837GU0CDL5RE1SNXN.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/ThirdPerson/Blueprints/BP_InteractableCube.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/ThirdPerson/Blueprints/hand.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/UI/WBP_InteractUI.uasset",
+				"D:/DanielRepos/ConsolasPC/PracticasWidgets/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/5E/XU19UKTMJ32IHPRXNORJJR.uasset"
+			]
+		}
+	]
+}

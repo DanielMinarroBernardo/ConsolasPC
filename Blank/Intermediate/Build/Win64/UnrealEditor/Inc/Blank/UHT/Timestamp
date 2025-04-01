@@ -1,9 +1,9 @@
-D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\InteractableDoor.h
 D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\InteractionInterface.h
 D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\MyActor.h
-D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\MyActorComponent.h
-D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\PlayerCharacter.h
-D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\RelocateComponent.h
 D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\RelocateSceneComponent.h
-D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\RespawnComp.h
 D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\RespawnComponent.h
+D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\InteractableDoor.h
+D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\MyActorComponent.h
+D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\RelocateComponent.h
+D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\PlayerCharacter.h
+D:\DanielRepos\ConsolasPC\Blank\Source\Blank\Public\RespawnComp.h

@@ -5,30 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Door.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/NewWorld_P.umap",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_WallButton.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Material/Button.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/System/BP_Gamemode.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_TestCharacter.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_MyPlayerCharacter.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/StarterContent/Props/SM_Door.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_HorizontalDoor.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_Elevator.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_MovableCube.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/L00_Intro.umap",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/WD/WBP_MainMenu.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_UICharacter.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_GameMode.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/BP_uiGameMode.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Blueprint/interfaces/BP_Interactable.uasset",
-				"D:/Blank/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"D:/Blank/Content/Maps/NewWorld_P.umap",
-				"D:/Blank/Content/Maps/NewWorld_GMP.umap",
-				"D:/Blank/Content/Blueprint/BP_InteractableDoor.uasset",
-				"D:/Blank/Content/Blueprint/BP_Door.uasset",
-				"D:/Blank/Content/Blueprint/BP_MyActor.uasset",
-				"D:/Blank/Content/Maps/NewWorld.umap"
+				"D:/DanielRepos/ConsolasPC/Blank/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/NewWorld_P.umap"
 			]
 		}
 	]

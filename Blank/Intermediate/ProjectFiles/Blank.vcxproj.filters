@@ -42,6 +42,12 @@
     <Filter Include="Source\Blank\Private">
       <UniqueIdentifier>{551671F9-70B2-3A24-9F75-9DBEF8C56125}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Blank\Private\AsyncTaskStreamSublevels.cpp">
+      <Filter>Source\Blank\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Private\GITAVLevelScriptActor.cpp">
+      <Filter>Source\Blank\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Blank\Private\InteractableDoor.cpp">
       <Filter>Source\Blank\Private</Filter>
     </ClCompile>
@@ -72,6 +78,12 @@
     <Filter Include="Source\Blank\Public">
       <UniqueIdentifier>{10AD802B-578B-3419-B41F-4B02D3AD896F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Blank\Public\AsyncTaskStreamSublevels.h">
+      <Filter>Source\Blank\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Blank\Public\GITAVLevelScriptActor.h">
+      <Filter>Source\Blank\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Blank\Public\InteractableDoor.h">
       <Filter>Source\Blank\Public</Filter>
     </ClCompile>

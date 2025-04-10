@@ -33,4 +33,5 @@ void UAsyncTaskStreamSublevels::Activate()
 void UAsyncTaskStreamSublevels::OnLevelLoaded()
 {
     OnCompletedDelegate.Broadcast();
+
 }

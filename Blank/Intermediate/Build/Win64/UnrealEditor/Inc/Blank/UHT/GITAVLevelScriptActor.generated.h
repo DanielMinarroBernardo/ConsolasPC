@@ -15,6 +15,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BLANK_GITAVLevelScriptActor_generated_h
 
 #define FID_Blank_Source_Blank_Public_GITAVLevelScriptActor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execLoadNextSublevel); \
+	DECLARE_FUNCTION(execStreamSublevels); \
 	DECLARE_FUNCTION(execOnLevelLoaded); \
 	DECLARE_FUNCTION(execLoadTargetLevel);
 

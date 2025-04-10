@@ -6,7 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/DanielRepos/ConsolasPC/Blank/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/NewWorld_P.umap"
+				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/NewWorld_P.umap",
+				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/LO3_Almacen.umap",
+				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/LO4_Almacen.umap",
+				"D:/DanielRepos/ConsolasPC/Blank/Content/Maps/LO5_Almacen.umap"
 			]
 		}
 	]

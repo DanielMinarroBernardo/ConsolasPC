@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\intermediate\\build\\win64\\unrealeditor\\inc\\gitav_ep\\uht\\gitav_ep.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\intermediate\\build\\win64\\x64\\gitav_epeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\gitav_ep\\definitions.gitav_ep.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

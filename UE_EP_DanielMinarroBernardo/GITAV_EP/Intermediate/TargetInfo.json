@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GITAV_EP",
+			"Path": "..\\Source\\GITAV_EP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GITAV_EPEditor",
+			"Path": "..\\Source\\GITAV_EPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

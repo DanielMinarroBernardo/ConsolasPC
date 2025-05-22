@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\source\\gitav_ep\\private\\calculadora.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\intermediate\\build\\win64\\x64\\gitav_epeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\gitav_ep\\definitions.gitav_ep.h",
+            "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\source\\gitav_ep\\public\\calculadora.h",
+            "d:\\ue_ep_danielminarrobernardo\\gitav_ep\\intermediate\\build\\win64\\unrealeditor\\inc\\gitav_ep\\uht\\calculadora.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

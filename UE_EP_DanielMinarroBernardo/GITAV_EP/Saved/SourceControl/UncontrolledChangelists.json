@@ -1,0 +1,50 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Lista de cambios no controlados predeterminada",
+			"files": [
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/Examen/BP_Key.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/Examen/BP_Interactua.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/TopDown/Blueprints/MAT_Blanco.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/TopDown/Blueprints/MAT_Rojo.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/9/0I/8G4UGNPEE4ERHANO54F6UB.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/C/81/HQKIHMEIRGR8RW95IKWY84.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/9/U8/42AZG827BQQQNS0A96TZEP.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/4/1S/RRMHG2GVPXNTHPUQ4SPHR7.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/3/1I/HZ3PCTAJ2N5BP94JRFCRDU.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/A/3G/ZV3XUE6HG0H9PWMZ6SE78R.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/6/0P/LH6I50L6U0ZWVW0MC3IM0C.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/4/YI/H1S9NM1CHDE3YYFXFV5ZAW.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/C/U0/GF5POPZYSWWSM0LK45MQ4D.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/6/0C/89N5ETMNDSN58KY4I5RSLI.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/1/J8/CYJIOW31IWYT4APHOVYAVH.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/3/4Y/OI6AR6DFMLJ896KB9AR03X.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/Examen/BP_Password.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/9/FT/X9242CQNE7VDCS98IYELJM.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/Examen/BP_ElevatingDoor.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/Examen/WD_OpenDoor.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/Examen/BP_Estatua.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/C/1E/4Y8WX2VBX0O2F29MA2EFQ3.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/8/UB/YOMIFUVSBFZCNAEZXLIK5N.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/7/EA/CFM5Q53S1WTXZE2D8WNZG3.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/WX/5QM6K2GGCX5YO14Y6QBJ4C.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/R2/QH9S99IJ11XYP1Q6HIKILE.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/73/UVHWRURIUV7MNJFJVJ61SJ.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/E1/PV1E7L48T15IS72GGCGK5Y.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/B/03/7J3C1L4OT7S732UJ1DF8MO.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/A/LH/LOS6C29IZSZ8SAA580SNWD.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/E/AO/Q7E3OCK1QAOVAA4IY2DJYR.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/A/XV/7CGDOFYJKMBB6B9BWF8CIF.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/TopDown/Maps/TopDownMap.umap",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/D/QU/JSZXR768PEE0SGBX4RYECH.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/Examen/FundidoNegro.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/3/JP/F8JI3GQSQ2V01RAMKA82K1.uasset",
+				"D:/UE_EP_DanielMinarroBernardo/GITAV_EP/Content/__ExternalActors__/TopDown/Maps/TopDownMap/D/R5/M7AKH6OBL1E6WNC9VQROTG.uasset",
+				"C:/Users/root/Desktop/UE_EP_/GITAV_EP/Content/StarterContent/Architecture/Floor_400x400.uasset"
+			]
+		}
+	]
+}

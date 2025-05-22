@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UE_EP_DanielMinarroBernardo\\GITAV_EP\\Source\\GITAV_EP\\GITAV_EP.Build.cs",
+		"D:\\UE_EP_DanielMinarroBernardo\\GITAV_EP\\Source\\GITAV_EP.Target.cs",
+		"D:\\UE_EP_DanielMinarroBernardo\\GITAV_EP\\Source\\GITAV_EPEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

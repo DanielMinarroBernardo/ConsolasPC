@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GITAV_EP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GITAV_EP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GITAV_EPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GITAV_EP">
+      <UniqueIdentifier>{81EA37F9-BF27-311B-8D50-BA8D5B47CE6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GITAV_EP\GITAV_EP.Build.cs">
+      <Filter>Source\GITAV_EP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EP.cpp">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EP.h">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EPCharacter.cpp">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EPCharacter.h">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EPGameMode.cpp">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EPGameMode.h">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EPPlayerController.cpp">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GITAV_EP\GITAV_EPPlayerController.h">
+      <Filter>Source\GITAV_EP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
